@@ -106,22 +106,22 @@ hi diffRemoved          ctermfg=132     ctermbg=252     cterm=none      guifg=#a
 hi htmlBold             ctermfg=none    ctermbg=none    cterm=bold                                      gui=bold
 hi htmlItalic           ctermfg=34      ctermbg=249     cterm=none      guifg=#00af00   guibg=#b2b2b2   gui=none
 
-hi luaFunc              ctermfg=28      ctermbg=252     cterm=none      guifg=#a8a8a8   guibg=#d0d0d0   gui=none
-hi luaStatement         ctermfg=28      ctermbg=252     cterm=bold      guifg=#a8a8a8   guibg=#d0d0d0   gui=bold
-hi luaCond              ctermfg=28      ctermbg=252     cterm=bold      guifg=#a8a8a8   guibg=#d0d0d0   gui=bold
-hi luaElse              ctermfg=28      ctermbg=252     cterm=bold      guifg=#a8a8a8   guibg=#d0d0d0   gui=bold
-hi luaRepeat            ctermfg=28      ctermbg=252     cterm=bold      guifg=#a8a8a8   guibg=#d0d0d0   gui=bold
-hi luaFunction          ctermfg=22      ctermbg=252     cterm=bold      guifg=#005f00   guibg=#d0d0d0   gui=bold
+hi luaFunc              ctermfg=28      ctermbg=252     cterm=none      guifg=#088208   guibg=#d0d0d0   gui=none
+hi luaStatement         ctermfg=28      ctermbg=252     cterm=bold      guifg=#088208   guibg=#d0d0d0   gui=bold
+hi luaCond              ctermfg=28      ctermbg=252     cterm=bold      guifg=#088208   guibg=#d0d0d0   gui=bold
+hi luaElse              ctermfg=28      ctermbg=252     cterm=bold      guifg=#088208   guibg=#d0d0d0   gui=bold
+hi luaRepeat            ctermfg=28      ctermbg=252     cterm=bold      guifg=#088208   guibg=#d0d0d0   gui=bold
+hi luaFunction          ctermfg=22      ctermbg=252     cterm=bold      guifg=#085d08   guibg=#d0d0d0   gui=bold
 
-hi pythonBuiltin        ctermfg=28      ctermbg=252     cterm=none      guifg=#a8a8a8   guibg=#d0d0d0   gui=none
-hi pythonStatement      ctermfg=28      ctermbg=252     cterm=bold      guifg=#a8a8a8   guibg=#d0d0d0   gui=bold
-hi pythonConditional    ctermfg=28      ctermbg=252     cterm=bold      guifg=#a8a8a8   guibg=#d0d0d0   gui=bold
-hi pythonRepeat         ctermfg=28      ctermbg=252     cterm=bold      guifg=#a8a8a8   guibg=#d0d0d0   gui=bold
-hi pythonOperator       ctermfg=28      ctermbg=252     cterm=bold      guifg=#a8a8a8   guibg=#d0d0d0   gui=bold
+hi pythonBuiltin        ctermfg=28      ctermbg=252     cterm=none      guifg=#088208   guibg=#d0d0d0   gui=none
+hi pythonStatement      ctermfg=28      ctermbg=252     cterm=bold      guifg=#088208   guibg=#d0d0d0   gui=bold
+hi pythonConditional    ctermfg=28      ctermbg=252     cterm=bold      guifg=#088208   guibg=#d0d0d0   gui=bold
+hi pythonRepeat         ctermfg=28      ctermbg=252     cterm=bold      guifg=#088208   guibg=#d0d0d0   gui=bold
+hi pythonOperator       ctermfg=28      ctermbg=252     cterm=bold      guifg=#088208   guibg=#d0d0d0   gui=bold
 
-hi javaScriptFunction   ctermfg=22      ctermbg=252     cterm=bold      guifg=#005f00   guibg=#d0d0d0   gui=bold
-hi javaScriptIdentifier ctermfg=28      ctermbg=252     cterm=none      guifg=#a8a8a8   guibg=#d0d0d0   gui=none
-hi javaScriptValue      ctermfg=29      ctermbg=252     cterm=none      guifg=#7f7f7f   guibg=#d0d0d0   gui=none
+hi javaScriptFunction   ctermfg=22      ctermbg=252     cterm=bold      guifg=#085d08   guibg=#d0d0d0   gui=bold
+hi javaScriptIdentifier ctermfg=28      ctermbg=252     cterm=none      guifg=#088208   guibg=#d0d0d0   gui=none
+hi javaScriptValue      ctermfg=29      ctermbg=252     cterm=none      guifg=#08825e   guibg=#d0d0d0   gui=none
 
 hi goEscapeC            ctermfg=124     ctermbg=252     cterm=none      guifg=#af0000   guibg=#d0d0d0   gui=none
 

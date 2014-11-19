@@ -29,7 +29,7 @@ I therefore created a colorscheme that would work in the terminals I use
 (which, being XTerm and rxvt-unicode, are probably the most popular ones)
 without having to change things.
 
-## What about 88-color, 16-color and 8-color.
+## What about 88-color, 16-color and 8-color?
 
 I'm open to ideas on how to transfer Midori's colors to these setups, but when
 I investigated doing so, I found that you kind of lose your ability to be
@@ -45,7 +45,7 @@ So Midori (without being obnoxious, I hope) focuses on green, and uses the
 Japanese word for green as its name.  I like to think it ties the blue, red,
 grey and magenta notes together nicely, but I'm not sure it comes across.
 
-## Hey, the colors for X are bad!
+## Hey, the colors for [...] are bad!
 
 Vim has a lot of features I don't use, like tabs, spellcheck, cursor columns,
 omni-completion (see note below), and so on.  If you tell me how to activate
@@ -54,17 +54,13 @@ them I'll work on styling them.
 ## Hey, there are a lot of languages missing!
 
 I primarily write C, and Midori looks great in C.  Beyond that, I've added some
-specific tweaks for Go, Python, Lua, and JavaScript, as I've had occasion to
-work with these languages.  PHP highlighting turned out rather well considering
-I've added no special directives, although it could use some specificity
-(magenta braces, brackets and parentheses are a little much in the dark
-version, grey `function` and `use` keywords should be darker... etc.).
+specific tweaks for languages I've had occasion to work with.
 
 I am happy to accept some updates for other languages, Ruby and Java come to
 mind, although I would imagine the trickier languages like Haskell or Scala
 could really use an expert's perspective.
 
-## Hey, highlighting/colors for X in gVim are bad!
+## Hey, highlighting/colors for [...] in gVim are bad!
 
 I added the colors for gVim as an afterthought, and I might have gotten some
 wrong or simply been lazy.  If you point them out to me I'll look into it.

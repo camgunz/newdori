@@ -41,9 +41,9 @@ hi Search               ctermfg=252     ctermbg=22      cterm=none      guifg=#d
 hi SignColumn           ctermfg=252     ctermbg=232     cterm=none      guifg=#d0d0d0   guibg=#7f7f7f   gui=none
 hi SpecialKey           ctermfg=37      ctermbg=235     cterm=none      guifg=#7f7f7f   guibg=#7f7f7f   gui=none
 hi StatusLine           ctermfg=252     ctermbg=232     cterm=none      guifg=#d0d0d0   guibg=#7f7f7f   gui=none
-hi StatusLineNC         ctermfg=242     ctermbg=232     cterm=none      guifg=#7f7f7f   guibg=#7f7f7f   gui=none
-hi TabLine              ctermfg=242     ctermbg=232     cterm=none      guifg=#7f7f7f   guibg=#7f7f7f   gui=none
-hi TabLineFill          ctermfg=242     ctermbg=232     cterm=none      guifg=#7f7f7f   guibg=#7f7f7f   gui=none
+hi StatusLineNC         ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
+hi TabLine              ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
+hi TabLineFill          ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
 hi TabLineSel           ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
 hi Title                ctermfg=28      ctermbg=none    cterm=bold      guifg=#7f7f7f   guibg=#000000   gui=bold
 hi VertSplit            ctermfg=232     ctermbg=232     cterm=none      guifg=#7f7f7f   guibg=#080808   gui=none
@@ -108,24 +108,36 @@ hi diffRemoved          ctermfg=132     ctermbg=none    cterm=none      guifg=#a
 hi htmlBold             ctermfg=none    ctermbg=none    cterm=bold      guifg=#000000   guibg=#000000   gui=bold
 hi htmlItalic           ctermfg=34      ctermbg=236     cterm=none      guifg=#00af00   guibg=#303030   gui=none
 
-hi luaFunc              ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
-hi luaStatement         ctermfg=22      ctermbg=none    cterm=bold      guifg=#005f00   guibg=#000000   gui=bold
-hi luaCond              ctermfg=22      ctermbg=none    cterm=bold      guifg=#005f00   guibg=#000000   gui=bold
-hi luaElse              ctermfg=22      ctermbg=none    cterm=bold      guifg=#005f00   guibg=#000000   gui=bold
-hi luaRepeat            ctermfg=22      ctermbg=none    cterm=bold      guifg=#005f00   guibg=#000000   gui=bold
+hi luaFunc              ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
+hi luaStatement         ctermfg=22      ctermbg=none    cterm=none      guifg=#005f00   guibg=#000000   gui=none
+hi luaCond              ctermfg=22      ctermbg=none    cterm=none      guifg=#005f00   guibg=#000000   gui=none
+hi luaElse              ctermfg=22      ctermbg=none    cterm=none      guifg=#005f00   guibg=#000000   gui=none
+hi luaRepeat            ctermfg=22      ctermbg=none    cterm=none      guifg=#005f00   guibg=#000000   gui=none
 hi luaFunction          ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
 
-hi pythonBuiltin        ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
+hi pythonBuiltin        ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
 hi pythonStatement      ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
-hi pythonConditional    ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
-hi pythonRepeat         ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
-hi pythonOperator       ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
+hi pythonConditional    ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
+hi pythonRepeat         ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
+hi pythonOperator       ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
+hi pythonEscape         ctermfg=124     ctermbg=none    cterm=none      guifg=#af0000   guibg=#000000   gui=none
+hi pythonInclude        ctermfg=66      ctermbg=none    cterm=none      guifg=#5f8787   guibg=#000000   gui=none
 
-hi javaScriptFunction   ctermfg=30      ctermbg=none    cterm=none      guifg=#008787   guibg=#000000   gui=none
+hi javaScriptGlobal     ctermfg=66      ctermbg=none    cterm=bold      guifg=#5f8787   guibg=#000000   gui=bold
+hi javaScriptFunction   ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
 hi javaScriptIdentifier ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
 hi javaScriptValue      ctermfg=30      ctermbg=none    cterm=none      guifg=#008787   guibg=#000000   gui=none
+hi javaScriptSpecial    ctermfg=124     ctermbg=none    cterm=none      guifg=#af0000   guibg=#000000   gui=none
 
-hi goEscapeC            ctermfg=124     ctermbg=none    cterm=none
+hi goEscapeC            ctermfg=124     ctermbg=none    cterm=none      guifg=#af0000   guibg=#000000   gui=none
+
+hi cfType               ctermfg=28      ctermbg=none    cterm=bold      guifg=#7f7f7f   guibg=#000000   gui=bold
+hi cfScope              ctermfg=66      ctermbg=none    cterm=bold      guifg=#5f8787   guibg=#000000   gui=bold
+hi cfFunction           ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
+hi cfFunctions          ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
+hi cfFunctionScope      ctermfg=245     ctermbg=none    cterm=none      guifg=#8a8a8a   guibg=#000000   gui=none
+hi cfFunctionScope      ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
+hi cfCondition          ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
 
 hi markdownCode         ctermfg=37      ctermbg=235     cterm=none      guifg=#00afaf   guibg=#262626   gui=none
 hi markdownValid        ctermfg=7       ctermbg=88      cterm=none      guifg=#e5e5e5   guibg=#870087   gui=none

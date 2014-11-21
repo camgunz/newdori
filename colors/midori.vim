@@ -17,7 +17,7 @@ if &background == "dark" " set background=dark
   hi NonText              ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
 
   hi ColorColumn          ctermfg=8       ctermbg=8       cterm=none      guifg=#7f7f7f   guibg=#000000   gui=none
-  hi Cursor               ctermfg=none    ctermbg=none    cterm=reverse                                   gui=reverse
+  hi Cursor               ctermfg=none    ctermbg=none    cterm=reverse                                   gui=none
   hi CursorIM             ctermfg=none    ctermbg=none    cterm=reverse                                   gui=reverse
   hi CursorColumn         ctermfg=none    ctermbg=236     cterm=none      guifg=#000000   guibg=#303030   gui=none
   hi CursorLine           ctermfg=none    ctermbg=236     cterm=none      guifg=#000000   guibg=#303030   gui=none
@@ -160,6 +160,7 @@ else "set background=light"
   hi NonText              ctermfg=232     ctermbg=252     cterm=none      guifg=#080808   guibg=#d0d0d0   gui=none
 
   hi ColorColumn          ctermfg=8       ctermbg=8       cterm=none      guifg=#7f7f7f   guibg=#7f7f7f   gui=none
+  hi Cursor               ctermfg=none    ctermbg=none    cterm=reverse                                   gui=none
   hi CursorColumn         ctermfg=232     ctermbg=249     cterm=none      guifg=#080808   guibg=#b2b2b2   gui=none
   hi CursorLine           ctermfg=232     ctermbg=249     cterm=none      guifg=#080808   guibg=#b2b2b2   gui=none
   hi CursorLineNr         ctermfg=162     ctermbg=236     cterm=none      guifg=#d70087   guibg=#303030   gui=none

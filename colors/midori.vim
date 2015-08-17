@@ -40,8 +40,8 @@ if &background == "dark" " set background=dark
   hi Search               ctermfg=252     ctermbg=22      cterm=none      guifg=#d0d0d0   guibg=#005f00   gui=none
   hi SignColumn           ctermfg=252     ctermbg=232     cterm=none      guifg=#d0d0d0   guibg=#7f7f7f   gui=none
   hi SpecialKey           ctermfg=37      ctermbg=235     cterm=none      guifg=#7f7f7f   guibg=#7f7f7f   gui=none
-  hi StatusLine           ctermfg=252     ctermbg=232     cterm=none      guifg=#d0d0d0   guibg=#7f7f7f   gui=none
-  hi StatusLineNC         ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
+  hi StatusLine           ctermfg=247     ctermbg=234     cterm=none      guifg=#d0d0d0   guibg=#7f7f7f   gui=none
+  hi StatusLineNC         ctermfg=232     ctermbg=234     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
   hi TabLine              ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
   hi TabLineFill          ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
   hi TabLineSel           ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none

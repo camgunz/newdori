@@ -38,20 +38,20 @@ if &background == "dark" " set background=dark
   hi PmenuSel             ctermfg=16      ctermbg=149     cterm=none      guifg=#000000   guibg=#a7df5f   gui=none
   hi PmenuThumb           ctermfg=none    ctermbg=none    cterm=reverse                                   gui=reverse
   hi Question             ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
-  hi Search               ctermfg=247     ctermbg=53      cterm=none      guifg=#d0d0d0   guibg=#5f005f   gui=none
-  hi SignColumn           ctermfg=252     ctermbg=232     cterm=none      guifg=#d0d0d0   guibg=#7f7f7f   gui=none
-  hi SpecialKey           ctermfg=37      ctermbg=235     cterm=none      guifg=#7f7f7f   guibg=#7f7f7f   gui=none
-  hi StatusLine           ctermfg=247     ctermbg=234     cterm=none      guifg=#d0d0d0   guibg=#7f7f7f   gui=none
-  hi StatusLineNC         ctermfg=22      ctermbg=234     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
-  hi TabLine              ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
-  hi TabLineFill          ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
+  hi Search               ctermfg=247     ctermbg=53      cterm=none      guifg=#9e9e9e   guibg=#5f005f   gui=none
+  hi SignColumn           ctermfg=252     ctermbg=232     cterm=none      guifg=#d0d0d0   guibg=#080808   gui=none
+  hi SpecialKey           ctermfg=37      ctermbg=235     cterm=none      guifg=#00afaf   guibg=#262626   gui=none
+  hi StatusLine           ctermfg=247     ctermbg=234     cterm=none      guifg=#9e9e9e   guibg=#1c1c1c   gui=none
+  hi StatusLineNC         ctermfg=22      ctermbg=234     cterm=none      guifg=#2e2e2e   guibg=#1c1c1c   gui=none
+  hi TabLine              ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#080808   gui=none
+  hi TabLineFill          ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#080808   gui=none
   hi TabLineSel           ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
-  hi Title                ctermfg=28      ctermbg=none    cterm=bold      guifg=#7f7f7f   guibg=#000000   gui=bold
-  hi VertSplit            ctermfg=232     ctermbg=232     cterm=none      guifg=#7f7f7f   guibg=#080808   gui=none
-  hi vimNumber            ctermfg=28      ctermbg=none    cterm=none      guifg=#7f7f7f   guibg=#000000   gui=none
-  hi vimHiAttrib          ctermfg=29      ctermbg=none    cterm=none      guifg=#7f7f7f   guibg=#000000   gui=none
+  hi Title                ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
+  hi VertSplit            ctermfg=232     ctermbg=232     cterm=none      guifg=#080808   guibg=#080808   gui=none
+  hi vimNumber            ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
+  hi vimHiAttrib          ctermfg=29      ctermbg=none    cterm=none      guifg=#00875f   guibg=#000000   gui=none
   hi Visual               ctermfg=252     ctermbg=22      cterm=none      guifg=#d0d0d0   guibg=#005f00   gui=none
-  hi WildMenu             ctermfg=46      ctermbg=16      cterm=none      guifg=#7f7f7f   guibg=#000000   gui=none
+  hi WildMenu             ctermfg=46      ctermbg=16      cterm=none      guifg=#00ff00   guibg=#000000   gui=none
 
   hi Comment              ctermfg=240     ctermbg=0       cterm=bold      guifg=#585858   guibg=#000000   gui=bold
 
@@ -64,7 +64,6 @@ if &background == "dark" " set background=dark
 
   hi Identifier           ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
   hi Function             ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
-  " hi Function             ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
 
   hi Statement            ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
   hi Conditional          ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
@@ -125,6 +124,8 @@ if &background == "dark" " set background=dark
   hi pythonOperator       ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
   hi pythonEscape         ctermfg=124     ctermbg=none    cterm=none      guifg=#af0000   guibg=#000000   gui=none
   hi pythonInclude        ctermfg=66      ctermbg=none    cterm=none      guifg=#5f8787   guibg=#000000   gui=none
+  hi pythonDecorator      ctermfg=67      ctermbg=none    cterm=none      guifg=#5f87af   guibg=#000000   gui=none
+  hi pythonDecoratorName  ctermfg=67      ctermbg=none    cterm=none      guifg=#5f87af   guibg=#000000   gui=none
 
   hi javaScriptGlobal     ctermfg=66      ctermbg=none    cterm=bold      guifg=#5f8787   guibg=#000000   gui=bold
   hi javaScriptFunction   ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
@@ -181,7 +182,7 @@ else "set background=light"
   hi PmenuSel             ctermfg=252     ctermbg=29      cterm=none      guifg=#d0d0d0   guibg=#00875f   gui=none
   hi PmenuThumb           ctermfg=232     ctermbg=252     cterm=reverse   guifg=#080808   guibg=#d0d0d0   gui=reverse
   hi Question             ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
-  hi Search               ctermfg=248     ctermbg=28      cterm=none      guifg=#a8a8a8   guibg=#008700   gui=none
+  hi Search               ctermfg=248     ctermbg=89      cterm=none      guifg=#a8a8a8   guibg=#87005f   gui=none
   hi SignColumn           ctermfg=232     ctermbg=246     cterm=none      guifg=#080808   guibg=#949494   gui=none
   hi SpecialKey           ctermfg=200     ctermbg=252     cterm=none      guifg=#ff00d7   guibg=#d0d0d0   gui=none
   hi StatusLine           ctermfg=0       ctermbg=244     cterm=none      guifg=#000000   guibg=#80808f   gui=none
@@ -267,6 +268,8 @@ else "set background=light"
   hi pythonOperator       ctermfg=28      ctermbg=252     cterm=none      guifg=#088208   guibg=#d0d0d0   gui=none
   hi pythonEscape         ctermfg=124     ctermbg=252     cterm=none      guifg=#af0000   guibg=#d0d0d0   gui=none
   hi pythonInclude        ctermfg=59      ctermbg=252     cterm=none      guifg=#5f5f5f   guibg=#d0d0d0   gui=none
+  hi pythonDecorator      ctermfg=29      ctermbg=252     cterm=none      guifg=#00875f   guibg=#d0d0d0   gui=none
+  hi pythonDecoratorName  ctermfg=29      ctermbg=252     cterm=none      guifg=#00875f   guibg=#d0d0d0   gui=none
 
   hi javaScriptGlobal     ctermfg=66      ctermbg=252     cterm=bold      guifg=#5f8787   guibg=#d0d0d0   gui=bold
   hi javaScriptFunction   ctermfg=22      ctermbg=252     cterm=bold      guifg=#085d08   guibg=#d0d0d0   gui=bold

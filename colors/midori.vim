@@ -1,15 +1,16 @@
 " Vim colorscheme for a transparent, 256-color terminal
 " Maintainer:  Charlie Gunyon <charles.gunyon@gmail.com>
-" Version:     0.1
+" Version:     0.2
 " License:     Vim license, see :help 'license'
 
-hi clear
-
-if exists("syntax_on")
-  syntax reset
+if version > 580
+    hi clear
+    if exists("syntax_on")
+      syntax reset
+    endif
 endif
 
-let colors_name = "midori"
+let g:colors_name = expand("<sfile>:t:r")
 
 if &background == "dark" " set background=dark
 
@@ -37,11 +38,11 @@ if &background == "dark" " set background=dark
   hi PmenuSel             ctermfg=16      ctermbg=149     cterm=none      guifg=#000000   guibg=#a7df5f   gui=none
   hi PmenuThumb           ctermfg=none    ctermbg=none    cterm=reverse                                   gui=reverse
   hi Question             ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
-  hi Search               ctermfg=252     ctermbg=22      cterm=none      guifg=#d0d0d0   guibg=#005f00   gui=none
+  hi Search               ctermfg=247     ctermbg=53      cterm=none      guifg=#d0d0d0   guibg=#5f005f   gui=none
   hi SignColumn           ctermfg=252     ctermbg=232     cterm=none      guifg=#d0d0d0   guibg=#7f7f7f   gui=none
   hi SpecialKey           ctermfg=37      ctermbg=235     cterm=none      guifg=#7f7f7f   guibg=#7f7f7f   gui=none
   hi StatusLine           ctermfg=247     ctermbg=234     cterm=none      guifg=#d0d0d0   guibg=#7f7f7f   gui=none
-  hi StatusLineNC         ctermfg=232     ctermbg=234     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
+  hi StatusLineNC         ctermfg=22      ctermbg=234     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
   hi TabLine              ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
   hi TabLineFill          ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#7f7f7f   gui=none
   hi TabLineSel           ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
@@ -63,6 +64,7 @@ if &background == "dark" " set background=dark
 
   hi Identifier           ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
   hi Function             ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
+  " hi Function             ctermfg=28      ctermbg=none    cterm=bold      guifg=#008700   guibg=#000000   gui=bold
 
   hi Statement            ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
   hi Conditional          ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none

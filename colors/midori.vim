@@ -133,6 +133,10 @@ if &background == "dark" " set background=dark
   hi javaScriptValue      ctermfg=30      ctermbg=none    cterm=none      guifg=#008787   guibg=#000000   gui=none
   hi javaScriptSpecial    ctermfg=124     ctermbg=none    cterm=none      guifg=#af0000   guibg=#000000   gui=none
 
+  hi typescriptReserved   ctermfg=66      ctermbg=none    cterm=none      guifg=#5f8787   guibg=#000000   gui=none
+  hi typescriptIdentifier ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
+  hi typescriptGlobalObjects ctermfg=30      ctermbg=none    cterm=none      guifg=#008787   guibg=#000000   gui=none
+
   hi goEscapeC            ctermfg=124     ctermbg=none    cterm=none      guifg=#af0000   guibg=#000000   gui=none
 
   hi cfType               ctermfg=28      ctermbg=none    cterm=bold      guifg=#7f7f7f   guibg=#000000   gui=bold
@@ -276,6 +280,10 @@ else "set background=light"
   hi javaScriptIdentifier ctermfg=28      ctermbg=252     cterm=none      guifg=#088208   guibg=#d0d0d0   gui=none
   hi javaScriptValue      ctermfg=29      ctermbg=252     cterm=none      guifg=#08825e   guibg=#d0d0d0   gui=none
   hi javaScriptSpecial    ctermfg=124     ctermbg=252     cterm=none      guifg=#af0000   guibg=#d0d0d0   gui=none
+
+  hi typescriptIdentifier ctermfg=59      ctermbg=252     cterm=bold      guifg=#5f5f5f   guibg=#d0d0d0   gui=bold
+  hi typescriptReserved   ctermfg=22      ctermbg=252     cterm=none      guifg=#085d08   guibg=#d0d0d0   gui=none
+  hi typescriptGlobalObjects ctermfg=30      ctermbg=252     cterm=none      guifg=#008787   guibg=#d0d0d0   gui=none
 
   hi goEscapeC            ctermfg=124     ctermbg=252     cterm=none      guifg=#af0000   guibg=#d0d0d0   gui=none
 

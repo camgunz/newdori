@@ -138,6 +138,7 @@ if &background == "dark" " set background=dark
   hi typescriptCall                  ctermfg=252 ctermbg=none cterm=none guifg=#d0d0d0 guibg=#000000 gui=none
   hi typescriptIdentifier            ctermfg=66  ctermbg=none cterm=none guifg=#5f8787 guibg=#000000 gui=none
   hi typescriptVariable              ctermfg=245 ctermbg=none cterm=none guifg=#8a8a8a guibg=#000000 gui=none
+  hi typescriptOperator              ctermfg=245 ctermbg=none cterm=none guifg=#8a8a8a guibg=#000000 gui=none
   hi typescriptAccessibilityModifier ctermfg=245 ctermbg=none cterm=none guifg=#8a8a8a guibg=#000000 gui=none
   hi typescriptTemplateSB            ctermfg=90  ctermbg=none cterm=bold guifg=#870087 guibg=#000000 gui=bold
   hi typescriptOpSymbols             ctermfg=252 ctermbg=none cterm=none guifg=#d0d0d0 guibg=#000000 gui=none
@@ -299,6 +300,7 @@ else "set background=light"
   hi typescriptIdentifier            ctermfg=66  ctermbg=none cterm=none guifg=#5f8787 guibg=#000000 gui=none
   hi typescriptIdentifier            ctermfg=30  ctermbg=252  cterm=none guifg=#008787 guibg=#d0d0d0 gui=none
   hi typescriptVariable              ctermfg=22  ctermbg=252  cterm=none guifg=#085d08 guibg=#d0d0d0 gui=none
+  hi typescriptOperator              ctermfg=22  ctermbg=252  cterm=none guifg=#085d08 guibg=#d0d0d0 gui=none
   hi typescriptAccessibilityModifier ctermfg=245 ctermbg=none cterm=none guifg=#8a8a8a guibg=#000000 gui=none
   hi typescriptTemplateSB            ctermfg=90  ctermbg=none cterm=bold guifg=#870087 guibg=#000000 gui=bold
   hi typescriptOpSymbols             ctermfg=232 ctermbg=252  cterm=none guifg=#080808 guibg=#d0d0d0 gui=none

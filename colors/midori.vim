@@ -53,7 +53,7 @@ if &background == "dark" " set background=dark
   hi Visual               ctermfg=252     ctermbg=22      cterm=none      guifg=#d0d0d0   guibg=#005f00   gui=none
   hi WildMenu             ctermfg=46      ctermbg=16      cterm=none      guifg=#00ff00   guibg=#000000   gui=none
 
-  hi Comment              ctermfg=240     ctermbg=0       cterm=bold      guifg=#585858   guibg=#000000   gui=bold
+  hi Comment              ctermfg=240     ctermbg=none    cterm=bold      guifg=#585858   guibg=#000000   gui=bold
 
   hi Constant             ctermfg=30      ctermbg=none    cterm=none      guifg=#008787   guibg=#000000   gui=none
   hi String               ctermfg=72      ctermbg=none    cterm=none      guifg=#5faf87   guibg=#000000   gui=none
@@ -133,9 +133,21 @@ if &background == "dark" " set background=dark
   hi javaScriptValue      ctermfg=30      ctermbg=none    cterm=none      guifg=#008787   guibg=#000000   gui=none
   hi javaScriptSpecial    ctermfg=124     ctermbg=none    cterm=none      guifg=#af0000   guibg=#000000   gui=none
 
-  hi typescriptReserved   ctermfg=66      ctermbg=none    cterm=none      guifg=#5f8787   guibg=#000000   gui=none
-  hi typescriptIdentifier ctermfg=28      ctermbg=none    cterm=none      guifg=#008700   guibg=#000000   gui=none
-  hi typescriptGlobalObjects ctermfg=30      ctermbg=none    cterm=none      guifg=#008787   guibg=#000000   gui=none
+  hi typescriptImport                ctermfg=66  ctermbg=none cterm=none guifg=#5f8787 guibg=#000000 gui=none
+  hi typescriptExport                ctermfg=245 ctermbg=none cterm=none guifg=#8a8a8a guibg=#000000 gui=none
+  hi typescriptCall                  ctermfg=252 ctermbg=none cterm=none guifg=#d0d0d0 guibg=#000000 gui=none
+  hi typescriptIdentifier            ctermfg=66  ctermbg=none cterm=none guifg=#5f8787 guibg=#000000 gui=none
+  hi typescriptVariable              ctermfg=245 ctermbg=none cterm=none guifg=#8a8a8a guibg=#000000 gui=none
+  hi typescriptAccessibilityModifier ctermfg=245 ctermbg=none cterm=none guifg=#8a8a8a guibg=#000000 gui=none
+  hi typescriptTemplateSB            ctermfg=90  ctermbg=none cterm=bold guifg=#870087 guibg=#000000 gui=bold
+  hi typescriptOpSymbols             ctermfg=252 ctermbg=none cterm=none guifg=#d0d0d0 guibg=#000000 gui=none
+  hi typescriptParens                ctermfg=252 ctermbg=none cterm=none guifg=#d0d0d0 guibg=#000000 gui=none
+  hi typescriptLogicSymbols          ctermfg=252 ctermbg=none cterm=none guifg=#d0d0d0 guibg=#000000 gui=none
+  hi typescriptBOMNavigatorProp      ctermfg=252 ctermbg=none cterm=none guifg=#d0d0d0 guibg=#000000 gui=none
+  hi typescriptEndColons             ctermfg=252 ctermbg=none cterm=none guifg=#d0d0d0 guibg=#000000 gui=none
+  hi typescriptTypeBrackets          ctermfg=30  ctermbg=none cterm=none guifg=#008787 guibg=#000000 gui=none
+  hi typescriptTemplateTag           ctermfg=72  ctermbg=none cterm=none guifg=#5faf87 guibg=#000000 gui=none
+  hi typescriptTemplate              ctermfg=72  ctermbg=none cterm=none guifg=#5faf87 guibg=#000000 gui=none
 
   hi goEscapeC            ctermfg=124     ctermbg=none    cterm=none      guifg=#af0000   guibg=#000000   gui=none
 
@@ -281,9 +293,22 @@ else "set background=light"
   hi javaScriptValue      ctermfg=29      ctermbg=252     cterm=none      guifg=#08825e   guibg=#d0d0d0   gui=none
   hi javaScriptSpecial    ctermfg=124     ctermbg=252     cterm=none      guifg=#af0000   guibg=#d0d0d0   gui=none
 
-  hi typescriptIdentifier ctermfg=59      ctermbg=252     cterm=bold      guifg=#5f5f5f   guibg=#d0d0d0   gui=bold
-  hi typescriptReserved   ctermfg=22      ctermbg=252     cterm=none      guifg=#085d08   guibg=#d0d0d0   gui=none
-  hi typescriptGlobalObjects ctermfg=30      ctermbg=252     cterm=none      guifg=#008787   guibg=#d0d0d0   gui=none
+  hi typescriptImport                ctermfg=66  ctermbg=none cterm=none guifg=#5f8787 guibg=#000000 gui=none
+  hi typescriptExport                ctermfg=245 ctermbg=none cterm=none guifg=#8a8a8a guibg=#000000 gui=none
+  hi typescriptCall                  ctermfg=232 ctermbg=252  cterm=none guifg=#080808 guibg=#d0d0d0 gui=none
+  hi typescriptIdentifier            ctermfg=66  ctermbg=none cterm=none guifg=#5f8787 guibg=#000000 gui=none
+  hi typescriptIdentifier            ctermfg=30  ctermbg=252  cterm=none guifg=#008787 guibg=#d0d0d0 gui=none
+  hi typescriptVariable              ctermfg=22  ctermbg=252  cterm=none guifg=#085d08 guibg=#d0d0d0 gui=none
+  hi typescriptAccessibilityModifier ctermfg=245 ctermbg=none cterm=none guifg=#8a8a8a guibg=#000000 gui=none
+  hi typescriptTemplateSB            ctermfg=90  ctermbg=none cterm=bold guifg=#870087 guibg=#000000 gui=bold
+  hi typescriptOpSymbols             ctermfg=232 ctermbg=252  cterm=none guifg=#080808 guibg=#d0d0d0 gui=none
+  hi typescriptParens                ctermfg=232 ctermbg=252  cterm=none guifg=#080808 guibg=#d0d0d0 gui=none
+  hi typescriptLogicSymbols          ctermfg=232 ctermbg=252  cterm=none guifg=#080808 guibg=#d0d0d0 gui=none
+  hi typescriptBOMNavigatorProp      ctermfg=232 ctermbg=252  cterm=none guifg=#080808 guibg=#d0d0d0 gui=none
+  hi typescriptEndColons             ctermfg=232 ctermbg=252  cterm=none guifg=#080808 guibg=#d0d0d0 gui=none
+  hi typescriptTypeBrackets          ctermfg=30  ctermbg=none cterm=none guifg=#008787 guibg=#000000 gui=none
+  hi typescriptTemplateTag           ctermfg=29  ctermbg=252  cterm=none guifg=#00875f guibg=#d0d0d0 gui=none
+  hi typescriptTemplate              ctermfg=29  ctermbg=252  cterm=none guifg=#00875f guibg=#d0d0d0 gui=none
 
   hi goEscapeC            ctermfg=124     ctermbg=252     cterm=none      guifg=#af0000   guibg=#d0d0d0   gui=none
 

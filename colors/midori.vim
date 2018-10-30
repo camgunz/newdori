@@ -17,7 +17,7 @@ if &background == "dark" " set background=dark
   hi Normal               ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
   hi NonText              ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
 
-  hi ColorColumn          ctermfg=8       ctermbg=8       cterm=none      guifg=#7f7f7f   guibg=#000000   gui=none
+  hi ColorColumn          ctermfg=66      ctermbg=none    cterm=reverse   guifg=#5f8787   guibg=#000000   gui=reverse
   hi Cursor               ctermfg=none    ctermbg=none    cterm=reverse                                   gui=none
   hi CursorIM             ctermfg=none    ctermbg=none    cterm=reverse                                   gui=reverse
   hi CursorColumn         ctermfg=none    ctermbg=236     cterm=none      guifg=#000000   guibg=#303030   gui=none
@@ -93,8 +93,8 @@ if &background == "dark" " set background=dark
 
   hi Underlined           ctermfg=37      ctermbg=238     cterm=none      guifg=#00afaf   guibg=#444444   gui=none
   hi Ignore               ctermfg=235     ctermbg=none    cterm=none      guifg=#262626   guibg=#000000   gui=none
-  hi Error                ctermfg=7       ctermbg=88      cterm=none      guifg=#e5e5e5   guibg=#870087   gui=none
-  hi Todo                 ctermfg=203     ctermbg=none    cterm=none      guifg=#ff5f5f   guibg=#000000   gui=none
+  hi Error                ctermfg=53      ctermbg=none    cterm=none      guifg=#5f005f   guibg=#000000   gui=none
+  hi Todo                 ctermfg=66      ctermbg=none    cterm=none      guifg=#5f8787   guibg=#000000   gui=none
 
   hi DiffAdd              ctermfg=250     ctermbg=22      cterm=none      guifg=#bcbcbc   guibg=#005f00   gui=none
   hi DiffChange           ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
@@ -105,6 +105,9 @@ if &background == "dark" " set background=dark
   hi diffFile             ctermfg=250     ctermbg=22      cterm=none      guifg=#bcbcbc   guibg=#005f00   gui=none
   hi diffLine             ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
   hi diffRemoved          ctermfg=132     ctermbg=none    cterm=none      guifg=#af5f87   guibg=#000000   gui=none
+
+  hi SpellBad             ctermfg=53      ctermbg=none    cterm=none      guifg=#5f005f   guibg=#000000   gui=none
+  hi SpellCap             ctermfg=53      ctermbg=none    cterm=none      guifg=#5f005f   guibg=#000000   gui=none
 
   hi htmlBold             ctermfg=none    ctermbg=none    cterm=bold                                      gui=bold
   hi htmlItalic           ctermfg=34      ctermbg=236     cterm=none      guifg=#00af00   guibg=#303030   gui=none
@@ -170,8 +173,6 @@ if &background == "dark" " set background=dark
 
   " These are unconfigured
   hi Conceal              ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
-  hi SpellBad             ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
-  hi SpellCap             ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
   hi SpellLocal           ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
   hi SpellRare            ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
 

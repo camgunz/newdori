@@ -18,8 +18,8 @@ if &background == "dark" " set background=dark
   hi NonText              ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
 
   hi ColorColumn          ctermfg=66      ctermbg=none    cterm=reverse   guifg=#5f8787   guibg=#000000   gui=reverse
-  hi Cursor               ctermfg=none    ctermbg=none    cterm=reverse                                   gui=none
-  hi CursorIM             ctermfg=none    ctermbg=none    cterm=reverse                                   gui=reverse
+  hi Cursor               ctermfg=none    ctermbg=none    cterm=reverse   guifg=#a0a0a0   guibg=#000000   gui=reverse
+  hi CursorIM             ctermfg=none    ctermbg=none    cterm=reverse   guifg=#a0a0a0   guibg=#000000   gui=reverse
   hi CursorColumn         ctermfg=none    ctermbg=236     cterm=none      guifg=#000000   guibg=#303030   gui=none
   hi CursorLine           ctermfg=none    ctermbg=236     cterm=none      guifg=#000000   guibg=#303030   gui=none
   hi CursorLineNr         ctermfg=162     ctermbg=236     cterm=none      guifg=#d70087   guibg=#303030   gui=none

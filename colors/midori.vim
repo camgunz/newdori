@@ -1,6 +1,6 @@
 " Vim colorscheme for a transparent, 256-color terminal
 " Maintainer:  Charlie Gunyon <charles.gunyon@gmail.com>
-" Version:     0.2
+" Version:     0.3
 " License:     Vim license, see :help 'license'
 
 if version > 580

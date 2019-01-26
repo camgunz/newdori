@@ -1,6 +1,6 @@
 " Vim colorscheme for a transparent, 256-color terminal
 " Maintainer:  Charlie Gunyon <charles.gunyon@gmail.com>
-" Version:     0.2
+" Version:     0.3
 " License:     Vim license, see :help 'license'
 
 if version > 580
@@ -182,11 +182,12 @@ else "set background=light"
   hi NonText              ctermfg=232     ctermbg=252     cterm=none      guifg=#000000   guibg=#ffffff   gui=none
 
   hi ColorColumn          ctermfg=8       ctermbg=8       cterm=none      guifg=#7f7f7f   guibg=#7f7f7f   gui=none
+
   hi Cursor               ctermfg=none    ctermbg=none    cterm=reverse                                   gui=none
   hi CursorColumn         ctermfg=232     ctermbg=249     cterm=none      guifg=#000000   guibg=#b2b2b2   gui=none
   hi CursorLine           ctermfg=232     ctermbg=249     cterm=none      guifg=#000000   guibg=#b2b2b2   gui=none
   hi CursorLineNr         ctermfg=162     ctermbg=236     cterm=none      guifg=#d70087   guibg=#303030   gui=none
-  hi Directory            ctermfg=37      ctermbg=252     cterm=none      guifg=#00afaf   guibg=#ffffff   gui=none
+  hi Directory            ctermfg=37      ctermbg=15      cterm=none      guifg=#00afaf   guibg=#ffffff   gui=none
   hi ErrorMsg             ctermfg=7       ctermbg=88      cterm=none      guifg=#e5e5e5   guibg=#870000   gui=none
   hi FoldColumn           ctermfg=232     ctermbg=246     cterm=none      guifg=#000000   guibg=#949494   gui=none
   hi Folded               ctermfg=232     ctermbg=246     cterm=none      guifg=#000000   guibg=#949494   gui=none
@@ -255,8 +256,13 @@ else "set background=light"
   hi Debug                ctermfg=223     ctermbg=252     cterm=none      guifg=#ffd7af   guibg=#ffffff   gui=none
 
   hi Underlined           ctermfg=252     ctermbg=37      cterm=none      guifg=#d0d0d0   guibg=#00afaf   gui=none
+<<<<<<< HEAD
   hi Ignore               ctermfg=235     ctermbg=252     cterm=none      guifg=#262626   guibg=#ffffff   gui=none
   hi Error                ctermfg=7       ctermbg=88      cterm=none      guifg=#e5e5e5   guibg=#870000   gui=none
+=======
+  hi Ignore               ctermfg=235     ctermbg=252     cterm=none      guifg=#262626   guibg=#d0d0d0   gui=none
+  hi Error                ctermfg=53      ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#5f005f   gui=none
+>>>>>>> 78026ae1c317b4c7e30894d636f40c21e1862e8b
   hi Todo                 ctermfg=89      ctermbg=249     cterm=none      guifg=#87005f   guibg=#b2b2b2   gui=none
 
   hi DiffAdd              ctermfg=250     ctermbg=22      cterm=none      guifg=#bcbcbc   guibg=#085d08   gui=none
@@ -269,7 +275,14 @@ else "set background=light"
   hi diffLine             ctermfg=232     ctermbg=252     cterm=none      guifg=#000000   guibg=#ffffff   gui=none
   hi diffRemoved          ctermfg=132     ctermbg=252     cterm=none      guifg=#af5f87   guibg=#ffffff   gui=none
 
+<<<<<<< HEAD
   hi htmlTitle            ctermfg=232     ctermbg=252     cterm=bold      guifg=#000000   guibg=#ffffff   gui=bold
+=======
+  hi SpellBad             ctermfg=53      ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#5f005f   gui=none
+  hi SpellCap             ctermfg=53      ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#5f005f   gui=none
+
+  hi htmlTitle            ctermfg=232     ctermbg=252     cterm=bold      guifg=#080808   guibg=#d0d0d0   gui=bold
+>>>>>>> 78026ae1c317b4c7e30894d636f40c21e1862e8b
   hi htmlBold             ctermfg=none    ctermbg=none    cterm=bold                                      gui=bold
   hi htmlItalic           ctermfg=34      ctermbg=249     cterm=none      guifg=#00af00   guibg=#b2b2b2   gui=none
 
@@ -337,8 +350,6 @@ else "set background=light"
 
   " These are unconfigured
   hi Conceal              ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
-  hi SpellBad             ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
-  hi SpellCap             ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
   hi SpellLocal           ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
   hi SpellRare            ctermfg=2       ctermbg=1       cterm=none      guifg=#00cd00   guibg=#cd0000   gui=none
 

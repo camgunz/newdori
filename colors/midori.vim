@@ -1,6 +1,6 @@
-" Vim colorscheme for a transparent, 256-color terminal
+" Vim colorscheme for a transparent, 256-color terminal or GVim
 " Maintainer:  Charlie Gunyon <charles.gunyon@gmail.com>
-" Version:     0.3
+" Version:     0.4
 " License:     Vim license, see :help 'license'
 
 if version > 580
@@ -93,7 +93,7 @@ if &background == "dark" " set background=dark
 
   hi Underlined           ctermfg=37      ctermbg=238     cterm=none      guifg=#00afaf   guibg=#444444   gui=none
   hi Ignore               ctermfg=235     ctermbg=none    cterm=none      guifg=#262626   guibg=#000000   gui=none
-  hi Error                ctermfg=53      ctermbg=none    cterm=none      guifg=#5f005f   guibg=#000000   gui=none
+  hi Error                ctermfg=245     ctermbg=53      cterm=none      guifg=#8a8a8a   guibg=#5f005f   gui=none
   hi Todo                 ctermfg=66      ctermbg=none    cterm=none      guifg=#5f8787   guibg=#000000   gui=none
 
   hi DiffAdd              ctermfg=250     ctermbg=22      cterm=none      guifg=#bcbcbc   guibg=#005f00   gui=none
@@ -106,8 +106,8 @@ if &background == "dark" " set background=dark
   hi diffLine             ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
   hi diffRemoved          ctermfg=132     ctermbg=none    cterm=none      guifg=#af5f87   guibg=#000000   gui=none
 
-  hi SpellBad             ctermfg=53      ctermbg=none    cterm=none      guifg=#5f005f   guibg=#000000   gui=none
-  hi SpellCap             ctermfg=53      ctermbg=none    cterm=none      guifg=#5f005f   guibg=#000000   gui=none
+  hi SpellBad             ctermfg=245     ctermbg=53      cterm=none      guifg=#8a8a8a   guibg=#5f005f   gui=none
+  hi SpellCap             ctermfg=245     ctermbg=53      cterm=none      guifg=#8a8a8a   guibg=#5f005f   gui=none
 
   hi htmlBold             ctermfg=none    ctermbg=none    cterm=bold                                      gui=bold
   hi htmlItalic           ctermfg=34      ctermbg=236     cterm=none      guifg=#00af00   guibg=#303030   gui=none
@@ -217,7 +217,7 @@ else "set background=light"
   hi Visual               ctermfg=248     ctermbg=28      cterm=reverse   guifg=#a8a8a8   guibg=#008700   gui=reverse
   hi WildMenu             ctermfg=46      ctermbg=16      cterm=none      guifg=#00ff00   guibg=#000000   gui=none
 
-  hi Comment              ctermfg=29      ctermbg=249     cterm=none      guifg=#00875f   guibg=#b2b2b2   gui=none
+  hi Comment              ctermfg=29      ctermbg=252     cterm=none      guifg=#00875f   guibg=#d0d0d0   gui=none
 
   hi Constant             ctermfg=30      ctermbg=none    cterm=none      guifg=#008787   guibg=#ffffff   gui=none
   hi String               ctermfg=29      ctermbg=none    cterm=none      guifg=#00875f   guibg=#ffffff   gui=none
@@ -258,7 +258,7 @@ else "set background=light"
   hi Underlined           ctermfg=252     ctermbg=37      cterm=none      guifg=#d0d0d0   guibg=#00afaf   gui=none
   hi Ignore               ctermfg=235     ctermbg=none    cterm=none      guifg=#262626   guibg=#ffffff   gui=none
   hi Error                ctermfg=89      ctermbg=249     cterm=bold      guifg=#87005f   guibg=#b2b2b2   gui=bold
-  hi Todo                 ctermfg=89      ctermbg=249     cterm=none      guifg=#87005f   guibg=#b2b2b2   gui=none
+  hi Todo                 ctermfg=89      ctermbg=252     cterm=none      guifg=#87005f   guibg=#d0d0d0   gui=none
 
   hi DiffAdd              ctermfg=250     ctermbg=22      cterm=none      guifg=#bcbcbc   guibg=#085d08   gui=none
   hi DiffChange           ctermfg=none    ctermbg=none    cterm=none      guifg=#000000   guibg=#ffffff   gui=none

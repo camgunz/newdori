@@ -1,6 +1,6 @@
 " Vim colorscheme for a transparent, 256-color terminal or GVim
 " Maintainer:  Charlie Gunyon <charles.gunyon@gmail.com>
-" Version:     0.4
+" Version:     0.5
 " License:     Vim license, see :help 'license'
 
 if version > 580
@@ -41,8 +41,8 @@ if &background == "dark" " set background=dark
   hi Search               ctermfg=247     ctermbg=53      cterm=none      guifg=#9e9e9e   guibg=#5f005f   gui=none
   hi SignColumn           ctermfg=252     ctermbg=232     cterm=none      guifg=#d0d0d0   guibg=#080808   gui=none
   hi SpecialKey           ctermfg=37      ctermbg=235     cterm=none      guifg=#00afaf   guibg=#262626   gui=none
-  hi StatusLine           ctermfg=247     ctermbg=234     cterm=none      guifg=#9e9e9e   guibg=#1c1c1c   gui=none
-  hi StatusLineNC         ctermfg=22      ctermbg=234     cterm=none      guifg=#2e2e2e   guibg=#1c1c1c   gui=none
+  hi StatusLine           ctermfg=234     ctermbg=247     cterm=none      guifg=#1c1c1c   guibg=#9e9e9e   gui=none
+  hi StatusLineNC         ctermfg=247     ctermbg=234     cterm=none      guifg=#9e9e9e   guibg=#1c1c1c   gui=none
   hi TabLine              ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#080808   gui=none
   hi TabLineFill          ctermfg=242     ctermbg=232     cterm=none      guifg=#2e2e2e   guibg=#080808   gui=none
   hi TabLineSel           ctermfg=252     ctermbg=none    cterm=none      guifg=#d0d0d0   guibg=#000000   gui=none
